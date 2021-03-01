@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'StarJedi';
+    src: url('fonts/StarJedi.eot');
+    src: url('fonts/StarJedi.eot') format('embedded-opentype'),
+         url('fonts/StarJedi.woff2') format('woff2'),
+         url('fonts/StarJedi.woff') format('woff'),
+         url('fonts/StarJedi.ttf') format('truetype'),
+         url('fonts/StarJedi.svg#StarJedi') format('svg');
+}

@@ -1,0 +1,55 @@
+body {
+    background: url(./image/fon.jpg) fixed;
+    background-size: cover;
+}
+
+h4 {
+    margin: 0;
+    text-align: center;
+}
+
+.tema {
+    position: absolute;
+    font-size: 42pt;
+    text-align: center;
+    color: aliceblue;
+    font-family: monospace;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.catalog {
+    margin-top: 10%;
+    padding: 8px;
+    font-family: monospace;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 16pt;
+    width: 90%;
+}
+
+.catalog__item {
+    margin-left: auto;
+    width: 20%;
+    color: aliceblue;
+    border: 4px solid #ff0000;
+    margin-bottom: 5%;
+    padding: 50px;
+    font-family: monospace;
+    border-radius: 10px;
+    background: rgba(134, 131, 131, 0.3);
+    /*прозрачный фон*/
+}
+
+.right {
+    color: rgb(255, 255, 255);
+    margin: 10%;
+    text-decoration: none;
+}
+
+.right_item {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
